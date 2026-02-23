@@ -21,7 +21,7 @@ const movieResolvers = {
 
   Mutation: {
     // a. Insert new movie
-    insertMovie: async (_, args) => {
+    addMovie: async (_, args) => {
       const movie = new MovieModel(args);
       return await movie.save();
     },

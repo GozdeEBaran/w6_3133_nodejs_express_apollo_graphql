@@ -17,7 +17,7 @@ const movieSchema = gql`
   }
 
   type Mutation {
-    insertMovie(
+    addMovie(
       name: String!
       director_name: String!
       production_house: String!
